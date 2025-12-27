@@ -6,6 +6,7 @@
     <title>Coffee Website</title>
     <!-- linking font awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -111,8 +112,53 @@
                         <p class="description">Delicious burgers and crispy french fries to satisfy your hunger.</p>
                     </li>
                 </ul>
+            </div>
+        </section>
 
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-2.jpg" alt="User" class="user-image">
+                                <h3 class="name">Rayan Turk</h3>
+                                <i class="feedback">great espresso blend! Smooth and bold flavor. Fast Shipping too.</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-3.jpg" alt="User" class="user-image">
+                                <h3 class="name">Micheal Brown</h3>
+                                <i class="feedback">Fantactic mocha flavor. Fresh and aromatic. Quick shipping.</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-5.jpg" alt="User" class="user-image">
+                                <h3 class="name">Anthony thompson</h3>
+                                <i class="feedback">Best coffee shop in town! Great atmosphere and delicious drinks.</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-1.jpg" alt="User" class="user-image">
+                                <h3 class="name">sarah Doe</h3>
+                                <i class="feedback">Loved the French roast. perfectly balanced and rich. will order again.</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/user-2.jpg" alt="User" class="user-image">
+                                <h3 class="name">Rayan Turk</h3>
+                                <i class="feedback">great espresso blend! Smooth and bold flavor. Fast Shipping too.</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
     </main>
+
+    <!-- link Swiper script -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script src="./js/script.js"></script>
 </body>

@@ -9,3 +9,35 @@ menuOpenButton.addEventListener('click', () => {
 
 // close the menu when the close button is clicked
 menuCloseButton.addEventListener('click', () => menuOpenButton.click());
+
+// initialize Swiper 
+const swiper = new Swiper('.slider-wrapper', {
+    loop: true,
+    grabCursor: true,
+    spaceBetween: 25,
+
+    // if we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true,
+    },
+    // navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    // Responsive breakpoints
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+    }
+});

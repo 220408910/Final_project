@@ -14,7 +14,7 @@
     <header>
         <nav class="navbar section-content">
             <a href="#" class="nav-logo">
-                <h2 class="nav-text">☕ Coffee</h2>
+                <h2 class="nav-text">☕ CoffeeHouse</h2>
             </a>
             <ul class="nav-menu">
                 <button id="menu-close-button" class="fas fa-times"></button>
@@ -22,19 +22,19 @@
                     <a href="#" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
+                    <a href="#about" class="nav-link">About</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Menu</a>
+                    <a href="#menu" class="nav-link">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Testimonials</a>
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
                 </li>
                  <li class="nav-item">
-                    <a href="#" class="nav-link">Gallery</a>
+                    <a href="#gallery" class="nav-link">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link">Contact</a>
                 </li> 
             </ul>
             <button id="menu-open-button" class="fas fa-bars"></button>
@@ -60,7 +60,7 @@
         </section>
 
         <!-- About Section -->
-        <section class="about-section">
+        <section class="about-section" id="about">
           <div class="section-content">
             <div class="about-image-wrapper">
                 <img src="images/about-image.jpg" alt="About" class="about-image">
@@ -77,7 +77,7 @@
         </section>
 
         <!-- Menu Section -->
-        <section class="menu-section">
+        <section class="menu-section" id="menu">
             <h2 class="section-title">Our Menu</h2>
             <div class="section-content">
                 <ul class="menu-list">
@@ -116,7 +116,7 @@
         </section>
 
         <!-- Testimonials Section -->
-        <section class="testimonials-section">
+        <section class="testimonials-section" id="testimonials">
             <h2 class="section-title">Testimonials</h2>
             <div class="section-content">
                 <div class="slider-container swiper">
@@ -138,12 +138,12 @@
                                 <i class="feedback">Best coffee shop in town! Great atmosphere and delicious drinks.</i>
                             </li>
                             <li class="testimonial swiper-slide">
-                                <img src="images/user-1.jpg" alt="User" class="user-image">
-                                <h3 class="name">sarah Doe</h3>
+                                <img src="images/na.jpg" alt="User" class="user-image">
+                                <h3 class="name">Najib Seraj</h3>
                                 <i class="feedback">Loved the French roast. perfectly balanced and rich. will order again.</i>
                             </li>
                             <li class="testimonial swiper-slide">
-                                <img src="images/user-2.jpg" alt="User" class="user-image">
+                                <img src="images/photo-image.jpg" alt="User" class="user-image">
                                 <h3 class="name">Rayan Turk</h3>
                                 <i class="feedback">great espresso blend! Smooth and bold flavor. Fast Shipping too.</i>
                             </li>
@@ -158,7 +158,7 @@
         </section>
 
         <!-- Gallery Section -->
-        <section class="gallery-section">
+        <section class="gallery-section" id="gallery">
             <h2 class="section-title">Gallery</h2>
             <div class="section-content">
                 <ul class="gallery-list">
@@ -186,7 +186,7 @@
         </section>
 
         <!-- Contact Section -->
-        <section class="contact-section">
+        <section class="contact-section" >
             <h2 class="section-title">Contact Us</h2>
             <div class="section-content">
                 <ul class="contact-info-list">
@@ -215,18 +215,33 @@
                         <p>www.coffeehouse.com</p>
                     </li>
                 </ul>
-
                 <form action="#" class="contact-form">
                     <input type="text" class="form-input" placeholder="Your Name" required>
                     <input type="email" class="form-input" placeholder="Your Email" required>
                     <textarea class="form-input" placeholder="Your Message" required></textarea>
                     <button type="submit" class="submit-button">Send Message</button>
-                </form>
-
-
-
-                        
+                </form>    
             </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© 2026 CoffeeHouse. All rights reserved.</p>
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy Policy</a>
+                    <span class="separator"> • </span>
+                    <a href="#" class="policy-link">Refund Policy</a>
+                </p>
+            </div>
+        </footer>
 
     </main>
 

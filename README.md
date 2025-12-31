@@ -49,5 +49,3 @@ This project was developed as a **Final Project for the Web Programming course (
 - **GitHub** – Version control  
 
 ---
-
-## 📂 Project Structure

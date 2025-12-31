@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoffeeHouse - Order</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/styles_order.css"/>
+</head>
+<body>
+    <!-- Navigation Bar  -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-content">
+                <div class="navbar-brand">
+                    <span class="material-icons navbar-logo-icon">coffee</span>
+                    <span class="navbar-logo-text">CoffeeHouse</span>
+                </div>
+                <div class="navbar-menu">
+                    <div class="navbar-links">
+                        <a class="navbar-link" href="#">Home</a>
+                        <a class="navbar-link" href="#">About</a>
+                        <a class="navbar-link navbar-link-active" href="#">Menu</a>
+                        <a class="navbar-link" href="#">Testimonials</a>
+                        <a class="navbar-link" href="#">Gallery</a>
+                        <a class="navbar-link-button" href="#">Contact</a>
+                    </div>
+                </div>
+                <div class="navbar-mobile-toggle">
+                    <button class="mobile-menu-button" type="button">
+                        <span class="material-icons">menu</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="menu-section">
+            <header class="menu-header">
+                <h2 class="menu-subtitle">Our Menu</h2>
+                <h1 class="menu-title">Choose Your Favorite Coffee</h1>
+                <p class="menu-description">Explore our wide selection of premium coffee blends, freshly brewed to perfection. From robust espressos to creamy lattes, we have something for every coffee lover.</p>
+            </header>
+            <div class="filter-buttons">
+                <button class="filter-button filter-button-active">All</button>
+                <button class="filter-button filter-button-inactive">Hot Coffee</button>
+                <button class="filter-button filter-button-inactive">Cold Brew</button>
+                <button class="filter-button filter-button-inactive">Pastries</button>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img alt="Cappuccino Art" class="product-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuVGXaRX2_EL1R66juMWIN5ydU-aCSB_MlP1oCQ6GgzG5UoJn_mYjoHBu8KgHemUzuXP2Z68n2qwZXkpnRE9MNPozDZIZ4mVnePh8NZCXrN-HC4AdKMJnQ2go2osu1Zn10NJz07kz0YHDrx5yfCiVpZFJWwUr7S_pyaMFmN9gOY3YLo_zS3odLm9fJ5S2lM-tZ5Jh9SXTLJZGqorNqbTkld28advqi3s-CWYcaHTABCBgYDCcZwhUtDU83d8GsQKUSEaKFyD22rrk"/>
+                        <div class="product-rating">
+                            <span class="material-icons rating-icon">star</span> 4.8
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-details">
+                            <h3 class="product-name">Cappuccino Supreme</h3>
+                            <p class="product-description">Rich espresso with steamed milk foam</p>
+                        </div>
+                        <span class="product-price">$4.50</span>
+                    </div>
+                    <div class="product-actions">
+                        <div class="quantity-control">
+                            <button class="quantity-button">-</button>
+                            <span class="quantity-value">1</span>
+                            <button class="quantity-button">+</button>
+                        </div>
+                        <button class="add-to-cart-button">
+                            Add to Cart
+                            <span class="material-icons add-to-cart-icon">add_shopping_cart</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img alt="Iced Latte" class="product-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4waXnGBiTHYIwjQcUxz3XirHOmvnWEl0TqvZ210ePHBuKZ-dO30uJKKIkuRwAn43VW5veq41nzhc6hhTnBrtItYFCAlkcoq0xDy2y6IlbatNm6CxLjQyXqF9FJUuPjG9sdFO3gk3u43v1zKIzVzavWCyHZGoRGFqcfDLhCoxhBmIxRTkmn8UbCMk9jE6bgASrexk_fl_QCSF1Hg7hHSV5eJjbMgIMtSdjRM32W_aGehXUqak0DT0qodwiiyCUsEI8U6uomDx2ph8"/>
+                        <div class="product-rating">
+                            <span class="material-icons rating-icon">star</span> 4.9
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-details">
+                            <h3 class="product-name">Caramel Iced Latte</h3>
+                            <p class="product-description">Chilled espresso with caramel drizzle</p>
+                        </div>
+                        <span class="product-price">$5.20</span>
+                    </div>
+                    <div class="product-actions">
+                        <div class="quantity-control">
+                            <button class="quantity-button">-</button>
+                            <span class="quantity-value">1</span>
+                            <button class="quantity-button">+</button>
+                        </div>
+                        <button class="add-to-cart-button">
+                            Add to Cart
+                            <span class="material-icons add-to-cart-icon">add_shopping_cart</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img alt="Espresso Shot" class="product-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAT3PfJp4wOdx8BCktqFbQHqSV6OJ4BGsa1mMrIhmHuIEhQf_2N4w-WuDDMCmAGrBUEYiGpQRcSbSjHTja4CnVFQlc5q6DGkU-loT0_xGJbmDVxzyZ2H4Y6zxeN8GpVfWlM4NgK-KNWsvvFB5ez56n_FK8YeX2ljra7MKRovImUV1hM99iFZ6a2F3QPgiyBp9A8mQnfYE5Dro-ebvGcZB7eUMicnKs2o8_c2A2IPTqB1wI91ArIXq1ce58NbR3EBjGNYptc2iwW1zs"/>
+                        <div class="product-rating">
+                            <span class="material-icons rating-icon">star</span> 4.7
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-details">
+                            <h3 class="product-name">Double Espresso</h3>
+                            <p class="product-description">Strong and bold double shot</p>
+                        </div>
+                        <span class="product-price">$3.50</span>
+                    </div>
+                    <div class="product-actions">
+                        <div class="quantity-control">
+                            <button class="quantity-button">-</button>
+                            <span class="quantity-value">1</span>
+                            <button class="quantity-button">+</button>
+                        </div>
+                        <button class="add-to-cart-button">
+                            Add to Cart
+                            <span class="material-icons add-to-cart-icon">add_shopping_cart</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img alt="Chocolate Muffin" class="product-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzjiFuhw7AKA_0vU742gCDg-3mmG8j19PSVIHL05gCIbnkgqGdPyA4_P275FFS-72rQqwyomot2yS9mOVOByXM8Ak6jjVS7lQYyJNF4cTcixK5kh6gS2UZDRg3wSlWJhUvo0i5cNyEyp5uYtYGRhVOef-A4aRVOMpSOiTNe5RFfbQpMzrQwN0kIM9qrQW0w1N0gaR_Vr644XT0B2J38Sftn9evI1ofCNRZJuCVj1oNTz-DEcMpeOEXKT2kCsYmFWcWFcshY9usS9A"/>
+                        <div class="product-rating">
+                            <span class="material-icons rating-icon">star</span> 4.9
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-details">
+                            <h3 class="product-name">Chocolate Muffin</h3>
+                            <p class="product-description">Freshly baked with chocolate chips</p>
+                        </div>
+                        <span class="product-price">$3.80</span>
+                    </div>
+                    <div class="product-actions">
+                        <div class="quantity-control">
+                            <button class="quantity-button">-</button>
+                            <span class="quantity-value">1</span>
+                            <button class="quantity-button">+</button>
+                        </div>
+                        <button class="add-to-cart-button">
+                            Add to Cart
+                            <span class="material-icons add-to-cart-icon">add_shopping_cart</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination">
+                <button class="pagination-button pagination-button-active">1</button>
+                <button class="pagination-button pagination-button-inactive">2</button>
+                <button class="pagination-button pagination-button-inactive">3</button>
+                <button class="pagination-button pagination-button-inactive">
+                    <span class="material-icons pagination-icon">arrow_forward</span>
+                </button>
+            </div>
+        </div>
+        
+    </main>
+
+
+
+    <script src="/js/script_order.js"></script>
+</body>
+</html>

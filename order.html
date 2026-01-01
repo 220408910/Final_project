@@ -19,12 +19,12 @@
                 </div>
                 <div class="navbar-menu">
                     <div class="navbar-links">
-                        <a class="navbar-link" href="#">Home</a>
-                        <a class="navbar-link" href="#">About</a>
+                        <a class="navbar-link" href="/#">Home</a>
+                        <a class="navbar-link" href="/#about">About</a>
                         <a class="navbar-link navbar-link-active" href="#">Menu</a>
-                        <a class="navbar-link" href="#">Testimonials</a>
-                        <a class="navbar-link" href="#">Gallery</a>
-                        <a class="navbar-link-button" href="#">Contact</a>
+                        <a class="navbar-link" href="/#testimonials">Testimonials</a>
+                        <a class="navbar-link" href="/#gallery">Gallery</a>
+                        <a class="navbar-link-button" href="/#contact">Contact</a>
                     </div>
                 </div>
                 <div class="navbar-mobile-toggle">
@@ -38,6 +38,8 @@
 
     <!-- Main Content -->
     <main class="main-content">
+
+        <!-- Menu Section -->
         <div class="menu-section">
             <header class="menu-header">
                 <h2 class="menu-subtitle">Our Menu</h2>
@@ -165,8 +167,157 @@
                 </button>
             </div>
         </div>
-        
+
+        <!-- Order Sidebar -->
+        <div class="order-sidebar">
+            <div class="order-header">
+                <h2 class="order-title">Your Order</h2>
+                <span class="order-badge">2 Items</span>
+            </div>
+            <div class="order-items custom-scrollbar">
+                <div class="order-item">
+                    <img alt="Cappuccino" class="order-item-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2iExfpbGIsn17-LdiUm25zHon8OKEOa0VUKZz3DJ3-BKLLdwx1rZGRxGjAhtFqopoA6IX17H6j4QK0nWD-dp6f_YAQDZeznyTtb5TKtU0wO5lV8x05tMU82_Fo2G2twl5eej36V8hZ43kWTDtG8XwnmXIjVq-eF5JTfZupxgcIAj-4bbxHGTPBbdmoVWuNKzYJoQ2xoSxOa2vXs7_F4G6rd-vVwOzm8RKf0oTBA56wDeCqg0EJkKK0Cxxed1J9KSqAYLTgkLy8zw"/>
+                    <div class="order-item-details">
+                        <h4 class="order-item-name">Cappuccino Supreme</h4>
+                        <p class="order-item-size">Regular Size</p>
+                        <div class="order-item-price-row">
+                            <span class="order-item-price">$4.50</span>
+                            <div class="order-item-quantity">
+                                <button class="order-item-quantity-button">-</button>
+                                <span class="order-item-quantity-value">1</span>
+                                <button class="order-item-quantity-button">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="order-item-delete">
+                        <span class="material-icons delete-icon">delete</span>
+                    </button>
+                </div>
+                <div class="order-item">
+                    <img alt="Muffin" class="order-item-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgRtM9-R2Evi0OA9LbFOn46IdoJGlsgWCpzn46RAQEAdeKUsPicfpd6VhML2oNrxveGD0neE6Ubl-psXShSJ5sig6NuOK50b4QO4ttyWdfh9I7R-Zvp9lpahBawjji0yLNn4GFv0CZ9r59nU-G-9E-1F3P0F0naZ2SlaGhiK2NPb6oZdZjxwdnv21Z1vpadhMwQmsRbVZpoAVvJblibA_JfINetzi87dzANQyWlVlTwQUix2KfOXMyjxkwCHOE3JfzZLC2OB4SOAI"/>
+                    <div class="order-item-details">
+                        <h4 class="order-item-name">Chocolate Muffin</h4>
+                        <p class="order-item-size">Fresh Baked</p>
+                        <div class="order-item-price-row">
+                            <span class="order-item-price">$3.80</span>
+                            <div class="order-item-quantity">
+                                <button class="order-item-quantity-button">-</button>
+                                <span class="order-item-quantity-value">1</span>
+                                <button class="order-item-quantity-button">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="order-item-delete">
+                        <span class="material-icons delete-icon">delete</span>
+                    </button>
+                </div>
+            </div>
+            <div class="promo-section">
+                <div class="promo-input-group">
+                    <input class="promo-input" placeholder="Promo Code" type="text"/>
+                    <button class="promo-button">Apply</button>
+                </div>
+            </div>
+            <div class="order-summary">
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span class="summary-value">$8.30</span>
+                </div>
+                <div class="summary-row">
+                    <span>Tax (5%)</span>
+                    <span class="summary-value">$0.42</span>
+                </div>
+                <div class="summary-total">
+                    <span>Total</span>
+                    <span class="summary-total-value">$8.72</span>
+                </div>
+            </div>
+            <button class="checkout-button">
+                Checkout Now
+                <span class="material-icons checkout-icon">arrow_forward</span>
+            </button>
+            <div class="delivery-info">
+                <span class="material-icons delivery-icon">local_shipping</span>
+                <div class="delivery-content">
+                    <h4 class="delivery-title">Free Delivery</h4>
+                    <p class="delivery-text">On all orders over $25 within the city limits.</p>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-brand-header">
+                        <span class="material-icons footer-logo-icon">coffee</span>
+                        <span class="footer-logo-text">CoffeeHouse</span>
+                    </div>
+                    <p class="footer-description">Making your day great with our special coffee! Every bean tells a story.</p>
+                    <div class="footer-social">
+                        <a class="social-link" href="#">
+                            <span class="social-text">FB</span>
+                        </a>
+                        <a class="social-link" href="#">
+                            <span class="social-text">IG</span>
+                        </a>
+                        <a class="social-link" href="#">
+                            <span class="social-text">TW</span>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="footer-section-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a class="footer-link" href="#">Home</a></li>
+                        <li><a class="footer-link" href="#">About Us</a></li>
+                        <li><a class="footer-link" href="#">Menu</a></li>
+                        <li><a class="footer-link" href="#">Gallery</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-section-title">Contact</h3>
+                    <ul class="footer-links">
+                        <li class="footer-contact-item">
+                            <span class="material-icons footer-contact-icon">location_on</span>
+                            CoffeeHouse, Istanbul, Turkey
+                        </li>
+                        <li class="footer-contact-item">
+                            <span class="material-icons footer-contact-icon">phone</span>
+                            +90 554 856 5956
+                        </li>
+                        <li class="footer-contact-item">
+                            <span class="material-icons footer-contact-icon">email</span>
+                            info@coffeehouse.com
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-section-title">Newsletter</h3>
+                    <p class="footer-newsletter-text">Subscribe for latest updates and offers.</p>
+                    <div class="footer-newsletter-form">
+                        <input class="newsletter-input" placeholder="Your email" type="email"/>
+                        <button class="newsletter-button">
+                            <span class="material-icons newsletter-icon">send</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>© 2026 CoffeeHouse. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Dark Mode Toggle -->
+    <div class="dark-mode-toggle">
+        <button class="dark-mode-button">
+            <span class="material-icons dark-mode-icon dark-mode-icon-light">dark_mode</span>
+            <span class="material-icons dark-mode-icon dark-mode-icon-dark dark-mode-icon-hidden">light_mode</span>
+        </button>
+    </div>
 
 
 

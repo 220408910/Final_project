@@ -65,19 +65,7 @@ body {
 .navbar-container {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 1rem;
-}
-
-@media (min-width: 640px) {
-    .navbar-container {
-        padding: 0 1.5rem;
-    }
-}
-
-@media (min-width: 1024px) {
-    .navbar-container {
-        padding: 0 2rem;
-    }
+    padding: 0 2rem;
 }
 
 .navbar-content {
@@ -109,13 +97,7 @@ body {
 }
 
 .navbar-menu {
-    display: none;
-}
-
-@media (min-width: 768px) {
-    .navbar-menu {
-        display: block;
-    }
+    display: block;
 }
 
 .navbar-links {
@@ -159,13 +141,7 @@ body {
 
 .navbar-mobile-toggle {
     margin-right: -0.5rem;
-    display: flex;
-}
-
-@media (min-width: 768px) {
-    .navbar-mobile-toggle {
-        display: none;
-    }
+    display: none;
 }
 
 .mobile-menu-button {
@@ -197,17 +173,9 @@ body {
     gap: 2rem;
 }
 
-@media (min-width: 1024px) {
-    .main-content {
-        grid-template-columns: 2fr 1fr;
-        padding: 3rem 1.5rem;
-    }
-}
-
-@media (min-width: 1280px) {
-    .main-content {
-        padding: 3rem 2rem;
-    }
+.main-content {
+    grid-template-columns: 2fr 1fr;
+    padding: 3rem 2rem;
 }
 
 /* Menu Section */
@@ -229,16 +197,10 @@ body {
 }
 
 .menu-title {
-    font-size: 1.875rem;
+    font-size: 2.25rem;
     font-weight: 700;
     margin-bottom: 1rem;
     line-height: 1.2;
-}
-
-@media (min-width: 768px) {
-    .menu-title {
-        font-size: 2.25rem;
-    }
 }
 
 .menu-description {
@@ -292,14 +254,8 @@ body {
 /* Product Grid */
 .products-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
-}
-
-@media (min-width: 768px) {
-    .products-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 /* Product Card */
@@ -854,32 +810,14 @@ body {
 .footer-container {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 1rem;
-}
-
-@media (min-width: 640px) {
-    .footer-container {
-        padding: 0 1.5rem;
-    }
-}
-
-@media (min-width: 1024px) {
-    .footer-container {
-        padding: 0 2rem;
-    }
+    padding: 0 2rem;
 }
 
 .footer-grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     margin-bottom: 3rem;
-}
-
-@media (min-width: 768px) {
-    .footer-grid {
-        grid-template-columns: repeat(4, 1fr);
-    }
 }
 
 .footer-brand {

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>CoffeeHouse - Payment</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/styles_checkout.css" />
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="nav">
+        <div class="nav-logo-container">
+            <div class="nav-icon-wrapper">
+                <span class="material-icons">coffee</span>
+            </div>
+            <span class="nav-logo-text">CoffeeHouse</span>
+        </div>
+        <div class="navbar-links">
+                        <a class="navbar-link" href="/#">Home</a>
+                        <a class="navbar-link" href="/#about">About</a>
+                        <a class="navbar-link" href="#">Menu</a>
+                        <a class="navbar-link" href="/#testimonials">Testimonials</a>
+                        <a class="navbar-link" href="/#gallery">Gallery</a>
+                        <a class="navbar-link-button" href="/#contact">Contact</a>
+                    </div>
+        <button class="nav-menu-btn">
+            <span class="material-icons">menu</span>
+        </button>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <h1 class="page-title">Checkout</h1>
+        <p class="page-subtitle">Complete your order to get your fresh brew.</p>
+        <div class="content-wrapper">
+            <div class="content-main">
+                <!-- Shipping Information -->
+                <section class="section">
+                    <div class="section-header">
+                        <span class="material-icons">local_shipping</span>
+                        <h2 class="section-title">Shipping Information</h2>
+                    </div>
+                    <form class="form-grid">
+                        <div class="form-field-full">
+                            <label class="form-label">Full Name</label>
+                            <input class="form-input" placeholder="NAJIB SERAJ" type="text" />
+                        </div>
+                        <div class="form-field-full">
+                            <label class="form-label">Address</label>
+                            <input class="form-input" placeholder="CoffeeHouse" type="text" />
+                        </div>
+                        <div>
+                            <label class="form-label">City</label>
+                            <input class="form-input" placeholder="Turkey" type="text" />
+                        </div>
+                        <div>
+                            <label class="form-label">Postal Code</label>
+                            <input class="form-input" placeholder="10001" type="text" />
+                        </div>
+                        <div>
+                            <label class="form-label">Country</label>
+                            <select class="form-select">
+                                <option>Istanbul</option>
+                                <option>Ankra</option>
+                                <option>Bulo</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="form-label">Phone Number</label>
+                            <input class="form-input" placeholder="+90 554 856 5956" type="tel" />
+                        </div>
+                    </form>
+                </section>
+
+                <!-- Payment Method -->
+                <section class="section">
+                    <div class="section-header">
+                        <span class="material-icons">payment</span>
+                        <h2 class="section-title">Payment Method</h2>
+                    </div>
+                    <div class="payment-methods">
+                        <label class="payment-method-label">
+                            <input checked class="payment-method-input" name="payment_method" type="radio" />
+                            <div class="payment-method-card">
+                                <span class="material-icons">credit_card</span>
+                                <span class="payment-method-text">Credit Card</span>
+                            </div>
+                        </label>
+                        <label class="payment-method-label">
+                            <input class="payment-method-input" name="payment_method" type="radio" />
+                            <div class="payment-method-card">
+                                <span class="material-icons">account_balance_wallet</span>
+                                <span class="payment-method-text">Digital Wallet</span>
+                            </div>
+                        </label>
+                        <label class="payment-method-label">
+                            <input class="payment-method-input" name="payment_method" type="radio" />
+                            <div class="payment-method-card">
+                                <span class="material-icons">account_balance</span>
+                                <span class="payment-method-text">Bank Transfer</span>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="order-totals">
+                        <div class="form-grid form-grid-2">
+                            <div class="form-field-full">
+                                <label class="form-label">Card Number</label>
+                                <div class="input-wrapper">
+                                    <input class="form-input form-input-icon" placeholder="0000 0000 0000 0000" type="text" />
+                                    <span class="material-icons input-icon">credit_card</span>
+                                </div>
+                            </div>
+                            <div>
+                                <label class="form-label">Expiry Date</label>
+                                <input class="form-input" placeholder="MM/YY" type="text" />
+                            </div>
+                            <div>
+                                <label class="form-label">CVC / CVV</label>
+                                <div class="input-wrapper">
+                                    <input class="form-input" placeholder="123" type="text" />
+                                    <span class="material-icons input-icon-right" title="3 digits on back of card">help_outline</span>
+                                </div>
+                            </div>
+                            <div class="form-field-full">
+                                <label class="form-label">Name on Card</label>
+                                <input class="form-input" placeholder="John Doe" type="text" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="/js/Checkout_script.js"></script>
+</body>
+
+</html>

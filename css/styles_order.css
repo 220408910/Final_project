@@ -409,7 +409,7 @@ body {
     padding-top: 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;
     border-top: 1px solid rgba(243, 244, 246, 1);
 }
 
@@ -671,6 +671,7 @@ body {
 .delete-icon {
     font-size: 0.875rem;
 }
+
 
 /* Promo Code */
 .promo-section {

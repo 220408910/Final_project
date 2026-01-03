@@ -120,3 +120,10 @@ function updateSummary() {
   taxEl.textContent = `$${tax.toFixed(2)}`;
   totalEl.textContent = `$${total.toFixed(2)}`;
 }
+
+// Save Cart to Local Storage on Checkout
+const checkoutBtn = document.getElementById("checkoutBtn");
+
+checkoutBtn.addEventListener("click", () => {
+  localStorage.setItem("coffee_cart", JSON.stringify(cart));
+});
